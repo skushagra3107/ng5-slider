@@ -407,7 +407,7 @@ export class SliderComponent implements OnInit, AfterViewInit, OnChanges, OnDest
     }
 
     this.manageElementsStyle();
-    this.setDisabledStateAttr();
+    // this.setDisabledStateAttr();
     this.calcViewDimensions();
     this.setMinAndMax();
     this.addAccessibility();
@@ -699,8 +699,8 @@ export class SliderComponent implements OnInit, AfterViewInit, OnChanges, OnDest
 
   // Read the user options and apply them to the slider model
   private applyOptions(): void {
-    this.viewOptions = new Options();
-    Object.assign(this.viewOptions, this.options);
+    // this.viewOptions = new Options();
+    // Object.assign(this.viewOptions, this.options);
 
     if (this.viewOptions.precisionLimit) {
       this.precisionLimit = this.viewOptions.precisionLimit;
