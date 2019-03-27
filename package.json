@@ -1,6 +1,6 @@
 {
   "name": "ng5-slider",
-  "version": "1.1.13",
+  "version": "1.1.14",
   "private": true,
   "description": "Slider component for Angular 5+",
   "keywords": [
@@ -15,16 +15,16 @@
     "angular5",
     "ng5"
   ],
-  "author": "Piotr Dziwinski",
+  "author": "Kushagra Saxena",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/angular-slider/ng5-slider.git"
+    "url": "https://github.com/skushagra3107/ng5-slider.git"
   },
   "bugs": {
-    "url": "https://github.com/angular-slider/ng5-slider/issues"
+    "url": "https://github.com/skushagra3107/ng5-slider/issues"
   },
-  "homepage": "https://github.com/angular-slider/ng5-slider#readme",
+  "homepage": "https://github.com/skushagra3107/ng5-slider#readme",
   "scripts": {
     "prepare": "npm run prepare:lib && npm run prepare:demo-app",
     "prepare:lib": "node scripts/generate-lib-files.js",
